@@ -1,4 +1,4 @@
-# Yubei Chen, Sparse Manifold Coding Lib Ver 0.1
+# Yubei Chen, Sparse Manifold Transform Lib Ver 0.1
 """
 This file contains multiple method to sparsify the coefficients
 """
@@ -60,7 +60,7 @@ def ISTA_PN(I,basis,lambd,num_iter,eta=None, useMAGMA=True):
     return ahat, Res
 
 def FISTA(I,basis,lambd,num_iter,eta=None, useMAGMA=True):
-    # This is a positive-only PyTorch-Ver ISTA solver
+    # This is a positive-only PyTorch-Ver FISTA solver
     dtype = basis.type()
     batch_size=I.size(1)
     M = basis.size(1)
