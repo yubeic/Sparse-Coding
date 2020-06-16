@@ -3,7 +3,10 @@
 This code implements sparse coding in PyTorch with the positive-only option. For the positive-only option, I only constraint the sparse coefficients to be non-negative. This choice is different from non-negative sparse coding or non-negative matrix factorization. The optimization solver used in this code is ISTA and FISTA. To demo the code, whitened natural images are adapted from: http://www.rctn.org/bruno/sparsenet/
 
 In order to use this code, python 3 and PyTorch 0.4 or above is required. Please follow the steps in the following Jupyter notebook:
+
+```bash
 sparse_coding_torch_Demo.ipynb
+```
 
 The following are some useful references:
 
