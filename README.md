@@ -66,3 +66,18 @@ The following are some useful references:
 }
 ```
 
+### The Sparse Manifold Transform
+```
+@inproceedings{DBLP:conf/nips/ChenPO18,
+  author    = {Yubei Chen and
+               Dylan M. Paiton and
+               Bruno A. Olshausen},
+  title     = {The Sparse Manifold Transform},
+  booktitle = {Advances in Neural Information Processing Systems 31: Annual Conference
+               on Neural Information Processing Systems 2018, NeurIPS 2018, December
+               3-8, 2018, Montr{\'{e}}al, Canada},
+  pages     = {10534--10545},
+  year      = {2018}
+}
+```
+
